@@ -6,6 +6,7 @@ function sumar(){
     var opc;
     opc=eval(num1)+eval(num2);
     document.calc.resultado.value=opc;
+    alert("El resultado de la suma es: "+opc)
 }
 function restar(){
     var num1;
@@ -15,6 +16,7 @@ function restar(){
     var opc2;
     opc2=eval(num1)-eval(num2);
     document.calc.resultado2.value=opc2;
+    alert("El resultado de la resta es: "+opc2)
 }
 function multiplicar(){
     var num1;
@@ -24,6 +26,7 @@ function multiplicar(){
     var opc3;
     opc3=eval(num1)*eval(num2);
     document.calc.resultado3.value=opc3;
+    alert("El resultado de la multiplicacion es: "+opc3)
 }
 function dividir(){
     var num1;
@@ -33,4 +36,5 @@ function dividir(){
     var opc4;
     opc4=eval(num1)/eval(num2);
     document.calc.resultado4.value=opc4;
+    alert("El resultado de la division es: "+opc4)
 }
